@@ -27,6 +27,7 @@ header{
 }
 .nav h2{
     font-size: 2rem;
+    text-shadow: 5px 5px 3px rgba(128, 128, 128, 0.705);
 }
 .search-box{
     position: relative;
@@ -42,10 +43,12 @@ header{
     outline: none;
     transition: all 0.30s ease-in-out;
     border: 1px solid lightgray;
+    box-shadow: 5px 5px 3px rgba(128, 128, 128, 0.705);
 }
 input:focus{
-    box-shadow: 0 0 5px rgba(255, 183, 0, 0.938);
     border: 1px solid rgba(255, 183, 0, 0.938);
+    box-shadow: 5px 5px 3px rgba(128, 128, 128, 0.705);
+
 }
 .search-box i{
     color: black;
